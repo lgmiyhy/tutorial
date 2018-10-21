@@ -1,0 +1,231 @@
+Django 진행과정
+
+  C:\Users\IT1603017> python -m venv Django
+  C:\Users\IT1603017> dir
+
+	C:\Users\IT1603017\Django>dir
+	 C 드라이브의 볼륨에는 이름이 없습니다.
+	 볼륨 일련 번호: CA0E-D950
+	
+	 C:\Users\IT1603017\Django 디렉터리
+
+	2018-10-07  오후 03:53    <DIR>          .
+	2018-10-07  오후 03:53    <DIR>          ..
+	2018-10-07  오후 03:53    <DIR>          Include
+	2018-10-07  오후 03:53    <DIR>          Lib
+	2018-10-07  오후 03:53                75 pyvenv.cfg
+	2018-10-07  오후 03:53    <DIR>          Scripts
+	               1개 파일                  75 바이트
+	               5개 디렉터리  42,362,138,624 바이트 남음
+
+
+
+https://youtu.be/rIVwVOpwpsA를 보면 설명하고 있더러.
+
+https://www.djangoproject.com/download/로 들어가서 Latest release: Django-2.1.2.tar.gz 를 다운로드 한 후 압축을 C:\에 풀었더니, C:\Django-2.1.2 여기로 풀어 놓았다.
+
+
+C:\Django-2.1.2>python setup.py install
+무수히 많은 File 작업들이 진행되고 난 후 최종 이렇게 끝났다.
+copying Django.egg-info\requires.txt -> build\bdist.win-	amd64\egg\EGG-INFO
+copying Django.egg-info\top_level.txt -> build	\bdist.win-amd64\egg\EGG-INFO
+creating dist
+creating 'dist\Django-2.1.2-py3.7.egg' and adding 'build	\bdist.win-amd64\egg' to it
+removing 'build\bdist.win-amd64\egg' (and everything 	under it)
+Processing Django-2.1.2-py3.7.egg
+creating c:\python37\lib\site-packages\Django-2.1.2-py3.7.egg
+Extracting Django-2.1.2-py3.7.egg to c:\python37\lib\site-packages
+Adding Django 2.1.2 to easy-install.pth file
+Installing django-admin.py script to C:\Python37\Scripts
+Deleting C:\Python37\Scripts\django-admin.py
+Installing django-admin-script.py script to C:\Python37\Scripts
+Installing django-admin.exe script to C:\Python37\Scripts
+
+Installed c:\python37\lib\site-packages\django-2.1.2-py3.7.egg
+Processing dependencies for Django==2.1.2
+Searching for pytz==2018.5
+Best match: pytz 2018.5
+Adding pytz 2018.5 to easy-install.pth file
+
+Using c:\python37\lib\site-packages
+Finished processing dependencies for Django==2.1.2
+
+C:\Django-2.1.2>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: CA0E-D950
+
+ C:\Django-2.1.2 디렉터리
+
+2018-10-07  오후 04:30    <DIR>          .
+2018-10-07  오후 04:30    <DIR>          ..
+2018-10-01  오후 05:11            34,335 AUTHORS
+2018-10-07  오후 04:30    <DIR>          build
+2015-09-23  오후 05:23             1,115 CONTRIBUTING.rst
+2018-10-07  오후 04:30    <DIR>          dist
+2018-10-07  오후 04:29    <DIR>          django
+2018-10-07  오후 04:24    <DIR>          Django.egg-info
+2018-10-07  오후 04:24    <DIR>          docs
+2018-10-07  오후 04:24    <DIR>          extras
+2018-10-07  오후 04:24               353 Gruntfile.js
+2018-10-01  오후 05:04               311 INSTALL
+2018-10-07  오후 04:24    <DIR>          js_tests
+2015-09-23  오후 05:06             1,552 LICENSE
+2018-10-01  오후 05:11            12,779 LICENSE.python
+2017-01-31  오후 04:54               307 MANIFEST.in
+2018-07-23  오후 08:53               347 package.json
+2018-10-01  오후 05:19             3,775 PKG-INFO
+2018-10-01  오후 05:04             1,935 README.rst
+2018-10-07  오후 04:24    <DIR>          scripts
+2018-10-01  오후 05:19               504 setup.cfg
+2018-10-01  오후 05:11             4,734 setup.py
+2018-10-07  오후 04:24    <DIR>          tests
+              12개 파일              62,047 바이트
+              11개 디렉터리  41,680,592,896 바이트 남음
+
+
+
+C:\Users\IT1603017\Django\Scripts>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: CA0E-D950
+
+ C:\Users\IT1603017\Django\Scripts 디렉터리
+
+2018-10-07  오후 04:04    <DIR>          .
+2018-10-07  오후 04:04    <DIR>          ..
+2018-10-07  오후 03:53             2,285 activate
+2018-10-07  오후 03:53             1,024 activate.bat
+2018-10-07  오후 03:53             1,495 Activate.ps1
+2018-10-07  오후 03:53               368 deactivate.bat
+2018-10-07  오후 04:04           102,816 django-admin.exe
+2018-10-07  오후 04:04               154 django-admin.py
+2018-10-07  오후 03:53           102,783 easy_install-3.7.exe
+2018-10-07  오후 03:53           102,783 easy_install.exe
+2018-10-07  오후 04:04               814 f2py.py
+2018-10-07  오후 03:53         2,483,360 libcrypto-1_1-x64.dll
+2018-10-07  오후 03:53           529,568 libssl-1_1-x64.dll
+2018-10-07  오후 03:56           102,765 pip.exe
+2018-10-07  오후 03:56           102,765 pip3.7.exe
+2018-10-07  오후 03:56           102,765 pip3.exe
+2018-10-07  오후 03:53           197,272 pyexpat.pyd
+2018-10-07  오후 03:53            99,992 python.exe
+2018-10-07  오후 03:53            59,032 python3.dll
+2018-10-07  오후 03:53         3,844,760 python37.dll
+2018-10-07  오후 03:53            98,456 pythonw.exe
+2018-10-07  오후 03:53            26,776 select.pyd
+2018-10-07  오후 03:53         1,217,688 sqlite3.dll
+2018-10-07  오후 03:53         1,731,744 tcl86t.dll
+2018-10-07  오후 03:53         1,480,352 tk86t.dll
+2018-10-07  오후 03:53         1,073,304 unicodedata.pyd
+2018-10-07  오후 03:53            89,752 vcruntime140.dll
+2018-10-07  오후 03:53            28,824 winsound.pyd
+2018-10-07  오후 03:53            72,856 _asyncio.pyd
+2018-10-07  오후 03:53            89,240 _bz2.pyd
+2018-10-07  오후 03:53            22,680 _contextvars.pyd
+2018-10-07  오후 03:53           132,760 _ctypes.pyd
+2018-10-07  오후 03:53            31,896 _ctypes_test.pyd
+2018-10-07  오후 03:53           273,048 _decimal.pyd
+2018-10-07  오후 03:53            25,240 _distutils_findvs.pyd
+2018-10-07  오후 03:53           171,160 _elementtree.pyd
+2018-10-07  오후 03:53            39,064 _hashlib.pyd
+2018-10-07  오후 03:53           257,176 _lzma.pyd
+2018-10-07  오후 03:53            39,064 _msi.pyd
+2018-10-07  오후 03:53            29,336 _multiprocessing.pyd
+2018-10-07  오후 03:53            44,184 _overlapped.pyd
+2018-10-07  오후 03:53            27,800 _queue.pyd
+2018-10-07  오후 03:53            75,928 _socket.pyd
+2018-10-07  오후 03:53            85,144 _sqlite3.pyd
+2018-10-07  오후 03:53           123,032 _ssl.pyd
+2018-10-07  오후 03:53            52,888 _testbuffer.pyd
+2018-10-07  오후 03:53            97,432 _testcapi.pyd
+2018-10-07  오후 03:53            23,704 _testconsole.pyd
+2018-10-07  오후 03:53            22,680 _testimportmultiple.pyd
+2018-10-07  오후 03:53            31,384 _testmultiphase.pyd
+2018-10-07  오후 03:53            69,784 _tkinter.pyd
+2018-10-07  오후 04:04    <DIR>          __pycache__
+              49개 파일          15,421,177 바이트
+               3개 디렉터리  41,659,596,800 바이트 남음
+
+(Django) C:\Users\IT1603017\Django>Scripts\django-admin.exe install tutorial
+
+
+(Django) C:\Users\IT1603017\Django\tutorial>python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 15 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+
+Run 'python manage.py migrate' to apply them.
+October 07, 2018 - 16:51:15
+Django version 2.1.2, using settings 'tutorial.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[07/Oct/2018 16:51:20] "GET / HTTP/1.1" 200 16348
+[07/Oct/2018 16:51:20] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[07/Oct/2018 16:51:21] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[07/Oct/2018 16:51:21] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[07/Oct/2018 16:51:21] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+Not Found: /favicon.ico
+[07/Oct/2018 16:51:22] "GET /favicon.ico HTTP/1.1" 404 1974
+
+웹페이지 local:8000 으로 들어가면 Install이 잘 되었다고 로켓이 움직이고 있음이 확인됨
+
+<<< PAGE 등록 >>> 첫번째 기능을 웹으로 올렸다.
+
+tutorial/settings.py 에서
+	INSTALLED_APPS = {
+	    'accounts',  <<<<<<<<<<<<<<<<<<<<<<<<< 신규로 추가된 부분이다.
+	    'django.contrib.admin',
+	    'django.contrib.auth',
+	    'django.contrib.contenttypes',
+	    'django.contrib.sessions',
+	    'django.contrib.messages',
+	    'django.contrib.staticfiles',
+	]
+
+tutorial/urls.py 에서
+	from django.contrib import admin
+	from django.urls import path, include <<<<< include 기능을 추가한다.
+
+	urlpatterns = [
+	    path(r'^admin/', admin.site.urls),
+	    path(r'^accounts/',include('accounts.urls')),   <<<<< accounts 에 대한 것을 포함한다. accounts/urls.py를 사용하라는 의미로
+	]
+
+accounts/urls.py에 아래를 모두 만들어 넣어야 한다,
+	from django.urls import path
+	from . import views   <<<<<< views에서 벌어질 내용들을 등록하고 
+
+	urlpatterns = {
+	    path('',views.home),  <<<<< views 에서 home이라는 함수를 사용하게끔한다. ( Class로 사용할 수 도 있으나 복잡 )
+	}
+
+accounts/views.py에 아래를 모두 만들어 넣어야 한다.
+	from django.shortcuts import render, HttpResponse
+
+	def home(request):
+    		return HttpResponse('Home Page!!!')
+
+<<< 첫 PAGE 심화  >>> 첫번째 웹 페이지의 기능을 심화하였다.
+
+accounts/views.py에서 아래 부분을 수정하여 넣었다,
+	def home(request):
+	#    return HttpResponse('Home Page!!!') <<<<<< 기존 
+    	return render(request, 'accounts/login.html')   <<<<<<< 변경분
+
+accounts/templates/accounts/login.html getBootstrap CSS 사이트에서 소스를 가져다 만들어 놓는다. 
+	<html lang="en" dir="ltr">  <<<<< html 하면 자동으로 만들어지고,
+	  <head>
+	    <meta charset="utf-8">
+	    <title>Login</title>     <<<<< 아래 3줄을 CSS에서 가져다 왔다. 버튼등의 소스가 CDN에 있다는 것으로 어디서나 리소스를 사용하게 된다.
+	    <!-- Latest compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	    crossorigin="anonymous">
+	  </head>
+	  <body>
+	    <h1>Welcome</h1>		<<<<<< h1 하면 자동으로 만들어진다. 그 사이 내용만 만들면 되는 구조다
+	    Welcome!You can login here!
+	    <button class="btn-danger" type="button" name="button">login</button>      <<<<< CSS에서 button 리소스 링크를 가져다 만들었다.
+	  </body>
+	</html>
