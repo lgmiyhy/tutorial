@@ -30,6 +30,6 @@ from django.conf.urls.static import static
 urlpatterns = [
 #    path('', views.login_redirect, name='login_redirect'),
     path('admin/', admin.site.urls),
-    path('account/', include('accounts.urls')),
+    path('account/', include('accounts.urls'))
 #    path('home/', include('home.urls', namespace='home')),
 ]
